@@ -1,0 +1,44 @@
+/* character.css */
+
+@charset "utf-8";
+
+.character{ }
+.character .frame{ 
+    width: 960px;
+    margin: 0 auto;   margin-bottom: 20px;
+}
+.character .frame .cont_box{
+    width: 100%; 
+    padding: 20px 0 0;
+    /* background-color: #ffa; */
+    
+}
+.character .frame .cont_box .wrap{
+    width: 100%; height: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #71788d;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between;    
+}
+.character .frame .cont_box .wrap .img_part{ 
+    width: calc(30% - 10px); height: 260px;
+    background-size: cover; background-position: 50% 50%;
+    /* background-color: #aaf; */
+}
+.character .frame .cont_box .wrap .txt_part{ 
+    width: calc(70% - 10px);
+    color: #1f232f;
+    /* background-color: #afa; */
+}
+.character .frame .cont_box .wrap .txt_part .name{ }
+.character .frame .cont_box .wrap .txt_part .name p{ font-size: 18px;}
+.character .frame .cont_box .wrap .txt_part .text{ 
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.character .frame .cont_box .wrap .txt_part .text h4{ 
+    font-size: 24px; font-weight: normal;
+    word-break: keep-all; text-align: center;
+}
